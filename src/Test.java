@@ -4,8 +4,11 @@ public class Test {
         return "A message";
     }
 
-    public static void main(String[] args) {
+    private static String getHello(){
+        return "Hello";
+    }
 
+    public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println(getMessage());
     }
