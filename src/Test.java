@@ -5,7 +5,7 @@ public class Test {
     }
 
     private static String getHello(){
-        return "Hello";
+        return "Hello 2";
     }
 
     public static void main(String[] args) {
